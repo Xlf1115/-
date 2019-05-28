@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Document</title>
+   <link rel="stylesheet" href="css/base.css">
+   <link rel="stylesheet" href="css/homepage.css">
+   <link rel="stylesheet" href="css/swiper.min.css">
+   <script src="js/jquery-3.4.1.js"></script>
+   <script src="js/swiper.min.js"></script>
+</head>
+<body>
+   <div class="box">
+      <!-- 头部-固定搜索栏目 -->
+      <header class="header">
+         <img src="img/xiazaoi.png" alt="" class="header-img">
+         <div class="header-div">
+            <img src="img/find_logo.png" alt="" class="header-div-img">
+            <img src="img/find_ince.png" alt="" class="header-div-imgt">
+            <input type="text" class="header-div-input" placeholder="惠普笔记本">
+         </div>
+         <a href="login.html"  class="header-span">登录</a>
+      </header>
+      <section class="section pr">
+         <!-- 头部轮播 swiper -->
+         <div class="carousel">
+            <div class="swiper-container swiper-containere">
+                  <div class="swiper-wrapper">
+                     <div class="swiper-slide"><img src="img/2.png" alt=""></div>
+                     <div class="swiper-slide"><img src="img/3.jpg" alt=""></div>
+                     <div class="swiper-slide"><img src="img/4.jpg" alt=""></div>
+                     <div class="swiper-slide"><img src="img/5.jpg" alt=""></div>
+                     <div class="swiper-slide"><img src="img/6.jpg" alt=""></div>
+                     <div class="swiper-slide"><img src="img/7.jpg" alt=""></div>
+                     <div class="swiper-slide"><img src="img/8.jpg" alt=""></div>
+                  </div>
+                  <!-- Add Pagination -->
+                  <div class="swiper-pagination"></div>
+                  <!-- Add Arrows -->
+            </div>
+         </div>
+
+         <div class="mobleimg">
+            <img src="img/shou1.jpg" alt="">
+            <img src="img/shou2.jpg" alt="">
+            <img src="img/shou3.jpg" alt="">
+         </div>
+         <div class="icon">
+            <div class="swiper-container">
+               <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                     <ul class="icon-one">
+                        <li><img src="img/i1.png" alt=""><span>京东超市</span></li>
+                        <li><img src="img/i2.png" alt=""><span>海囤全球</span></li>
+                        <li><img src="img/i3.png" alt=""><span>京东服饰</span></li>
+                        <li><img src="img/i4.png" alt=""><span>京东生鲜</span></li>
+                        <li><img src="img/i5.png" alt=""><span>京东到家</span></li>
+                     </ul>
+                     <ul class="con-two">
+                        <li><img src="img/i6.png" alt=""><span>充值缴费</span></li>
+                        <li><img src="img/i7.png" alt=""><span>9.9元拼</span></li>
+                        <li><img src="img/i8.png" alt=""><span>领券</span></li>
+                        <li><img src="img/i9.png" alt=""><span>赚钱</span></li>
+                        <li><img src="img/i10.png" alt=""><span>全部</span></li>
+                     </ul> 
+                  </div>
+                  <div class="swiper-slide">
+                     <ul class="icon-one">
+                        <li><img src="img/i1.png" alt=""><span>京东超市</span></li>
+                        <li><img src="img/i2.png" alt=""><span>海囤全球</span></li>
+                        <li><img src="img/i3.png" alt=""><span>京东服饰</span></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="bulletin">
+            <img src="img/kuaibao.jpg" alt="" class="bulletin-img">
+
+            <span class="bulletin-span">
+               <div class="swiper-container h3">
+                  <div class="swiper-wrapper">
+                     <div class="swiper-slide h3">
+                        <span class="bulletin-span-one">最新</span>
+                        <a href="#" class="bulletin-span-two">两个8G内存条对比一个16G内存条： ...</a>
+                     </div>
+                     <div class="swiper-slide h3">
+                        <span class="bulletin-span-one">推荐</span>
+                        <a href="#" class="bulletin-span-two">冰箱是买国外的好还是国内的好？建议...</a>
+                     </div>
+                     <div class="swiper-slide h3">
+                        <span class="bulletin-span-one">热门</span>
+                        <a href="#" class="bulletin-span-two">买空调是买格力，海尔还是美的，先...</a>
+                     </div>
+                     <div class="swiper-slide h3">
+                        <span class="bulletin-span-one">HOT</span>
+                        <a href="#" class="bulletin-span-two">60英寸电视刚成主流，而夏普80英寸...</a>
+                     </div>
+                  </div>
+               </div>
+            </span>
+            <a href="#" class="bulletin-a">更多</a>
+         </div>
+
+         <div class="new">
+            <img src="img/xinren1.png" alt="">
+            <img src="img/xinren2.png" alt="">
+         </div>
+         <!-- 京东秒杀 -->
+         <div class="jd-seckill">
+            <div class="seckill-top">
+               <img src="img/miaosha1.png" alt="" class="seckill-top-img">
+               <span class="seckill-top-14">14点场</span>
+               <div class="seckill-top-div">
+                  <span class="seckill-top-divo">00</span>
+                  <span class="seckill-top-divt">00</span>
+                  <span class="seckill-top-divs">00</span>
+               </div>
+               <span  class="seckill-top-span">
+                  <a href="#"  class="seckill-top-span-a">更多秒杀</a>
+                  <img src="img/miaosha22t.png" alt=""  class="seckill-top-span-img">
+               </span>
+            </div seckill>
+
+            <!-- 滑动不贴合轮播 -->
+            <div class="seckill">
+               <div class="swiper-container">
+                  <div class="swiper-wrapper">
+                     <div class="swiper-slide">
+                        <img src="img/11.jpg" alt="" class="seckill-img">
+                        <div class="seckill-ul-li-div">
+                           <span class="seckill-div-spano">¥59</span><br>
+                           <span class="seckill-div-spant">¥159</span>
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <img src="img/12.png" alt="" class="seckill-img">
+                        <div class="seckill-ul-li-div">
+                           <span class="seckill-div-spano">¥2696</span><br>
+                           <span class="seckill-div-spant">¥4200</span>
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <img src="img/13.jpg" alt="" class="seckill-img">
+                        <div class="seckill-ul-li-div">
+                           <span class="seckill-div-spano">¥39</span><br>
+                           <span class="seckill-div-spant">¥69</span>
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <img src="img/14.jpg" alt="" class="seckill-img">
+                        <div class="seckill-ul-li-div">
+                           <span class="seckill-div-spano">¥59</span><br>
+                           <span class="seckill-div-spant">¥179</span>
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <img src="img/15.jpg" alt="" class="seckill-img">
+                        <div class="seckill-ul-li-div">
+                           <span class="seckill-div-spano">¥3160</span><br>
+                           <span class="seckill-div-spant">¥4519</span>
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <img src="img/16.jpg" alt="" class="seckill-img">
+                        <div class="seckill-ul-li-div">
+                           <span class="seckill-div-spano">¥298</span><br>
+                           <span class="seckill-div-spant">¥549</span>
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <img src="img/17.jpg" alt="" class="seckill-img">
+                        <div class="seckill-ul-li-div">
+                           <span class="seckill-div-spano">¥9.9</span><br>
+                           <span class="seckill-div-spant">¥19.8</span>
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <img src="img/18.jpg" alt="" class="seckill-img">
+                        <div class="seckill-ul-li-div">
+                           <span class="seckill-div-spano">¥88</span><br>
+                           <span class="seckill-div-spant">¥119</span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section> 
+      <footer class="footer">
+         <span><img src="img/f1.png" alt="" class="footer-img"></span>
+         <span><img src="img/f2.png" alt="" class="footer-img"></span>
+         <span><img src="img/f3.png" alt="" class="footer-img"></span>
+         <span><img src="img/f4.png" alt="" class="footer-img"></span>
+         <span><img src="img/f5.png" alt="" class="footer-img"></span>
+      </footer>    
+   </div>
+</body>
+<script src="js/homepage.js"></script>
+</html>
